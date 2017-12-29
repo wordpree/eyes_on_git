@@ -7,4 +7,3 @@ function tsc_theme_enqueue_style(){
 }
 add_action('wp_enqueue_scripts','tsc_theme_enqueue_style');
 /*this is my first commit*/
-/*this is my second commit*/
