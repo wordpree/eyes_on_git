@@ -118,8 +118,8 @@ $art =new WP_Query($args);
 	</div>
 </div>
 <?php 
-$pinterest =esc_url(get_theme_mod('pinterest'));
 $twitter =esc_url(get_theme_mod('twitter'));
+$pinterest =esc_url(get_theme_mod('pinterest'));
 $facebook =esc_url(get_theme_mod('facebook'));
 $instagram =esc_url(get_theme_mod('instagram'));
 $bg_img =get_theme_mod('social_bg_img');
