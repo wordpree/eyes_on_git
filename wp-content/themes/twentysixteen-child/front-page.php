@@ -125,7 +125,7 @@ $instagram =esc_url(get_theme_mod('instagram'));
 $bg_img =get_theme_mod('social_bg_img');
 if($twitter||$pinterest ||$facebook ||$instagram):
 ?>
-<div class='site-social-link social-links'>
+<div class='site-social-link'>
 	<div class='social-links' style='background-image: url("<?php echo $bg_img;?>")'>
 	    <div class='content'><h2><?php echo get_theme_mod('social_title')?></h2></div>
 	    <?php if($twitter):?>
